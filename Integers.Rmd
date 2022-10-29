@@ -1,0 +1,18 @@
+---
+title: "Integers"
+author: '[Johnson Lin]'
+date: "2022-10-29"
+output: html_document
+---
+
+## Integers
+
+This is a simple document on the first 10 integers.
+
+```{r integers}
+my_range <- 1:10
+for (i in my_range){
+  print(paste("The integer is", i))
+}
+```
+
